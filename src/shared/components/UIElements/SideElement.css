@@ -1,0 +1,43 @@
+
+  .sticky-component {
+      height: calc(100vh - 4rem);
+      width: 33vw;
+      flex: 0 0 33vw;
+      position: fixed;
+    }
+    .entity-item-dt__content {
+      height: 100%;
+      width: 100%;
+      overflow-y: scroll;
+    }
+    
+    .entity-item-dt__info {
+      text-align: center;
+  
+    }
+    
+    .entity-item-dt__image {
+      width: 100%;
+      height: 60%;
+  
+    }
+    
+    .entity-item-dt__image img {
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+    }
+    .entity-item-dt__info {
+      word-wrap: break-word;
+    }
+
+    .entity-item-dt__info h2 {
+      width: 100%;
+      height: 20%;
+      
+    }
+    .entity-item-dt__info p {
+      
+      width: 100%;
+      height: 30%;
+    }
